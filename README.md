@@ -6,3 +6,6 @@
 
 ## Lesson3
 <p>Union Data type</p>
+
+## Lesson4
+<p>Array Type</p>
