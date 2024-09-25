@@ -8,4 +8,7 @@
 <p>Union Data type</p>
 
 ## Lesson4
-<p>Array Type</p>
+<p>In this lesson we will learn about Array Type</p>
+
+## Lesson5
+<p>In this lesson we will learn about tuple type</p>
