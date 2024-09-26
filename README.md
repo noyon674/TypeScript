@@ -21,3 +21,6 @@
 
 ## Lesson8
 <p>This lesson about object type</p>
+
+## Lesson9
+<p>In this lesson we will learn about creating custom type</p>
