@@ -12,3 +12,6 @@
 
 ## Lesson5
 <p>In this lesson we will learn about tuple type</p>
+
+## Lesson6
+<p>In this lesson we will learn about ENUM type</p>
