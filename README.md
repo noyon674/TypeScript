@@ -15,3 +15,9 @@
 
 ## Lesson6
 <p>In this lesson we will learn about ENUM type</p>
+
+## Lesson7
+<p>In this lesson about any data type</p>
+
+## Lesson8
+<p>This lesson about object type</p>

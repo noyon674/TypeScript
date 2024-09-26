@@ -18,3 +18,11 @@ var RequestData;
 })(RequestData || (RequestData = {}));
 console.log(RequestData);
 console.log(RequestData.getData);
+//hetergeneous
+var RequestItem;
+(function (RequestItem) {
+    RequestItem["name"] = "Noyon";
+    RequestItem[RequestItem["age"] = 23] = "age";
+})(RequestItem || (RequestItem = {}));
+console.log(RequestItem);
+console.log(RequestItem.age);

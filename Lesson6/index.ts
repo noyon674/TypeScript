@@ -7,7 +7,6 @@ enum RequestType {
     saveData,
     deleteData
 }
-
 console.log(RequestType)
 console.log(RequestType.saveData)
 
@@ -17,6 +16,13 @@ enum RequestData{
     postData = 'POST DATA',
     putData = 'PUT DATA'
 }
-
 console.log(RequestData)
 console.log(RequestData.getData)
+
+//hetergeneous
+enum RequestItem{
+    name = "Noyon",
+    age = 23
+}
+console.log(RequestItem)
+console.log(RequestItem.age)
