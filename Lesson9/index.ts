@@ -24,3 +24,15 @@ let dataRequest: requestType;
 
 dataRequest = 'GET'
 // dataRequest = 'post' //getting error because small latter text
+
+
+//using in the function
+function requestHandle(reqType: requestType){
+    console.log(reqType)
+}
+
+requestHandle('GET')
+requestHandle("POST")
+
+//if i pass the other value it gives error
+// requestHandle('delete')

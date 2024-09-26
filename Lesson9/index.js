@@ -11,3 +11,11 @@ console.log(users);
 var dataRequest;
 dataRequest = 'GET';
 // dataRequest = 'post' //getting error because small latter text
+//using in the function
+function requestHandle(reqType) {
+    console.log(reqType);
+}
+requestHandle('GET');
+requestHandle("POST");
+//if i pass the other value it gives error
+// requestHandle('delete')
