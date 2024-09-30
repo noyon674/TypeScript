@@ -40,17 +40,26 @@ salary = 10000
 ```
 ## Lesson4
 <p>In this lesson we will learn about Array Type</p>
-```
+
+```TypeScript
 //array data type
 let fruites: string[];
 fruites = ['mango', 'orange', 'apple']
 
-//this time get error
-// fruites = ['Apple', 'Mango', 28, 48]
-```
+//this time get error because we use number also as items
+fruites = ['Apple', 'Mango', 28, 48]
 
+// union of array type
+let person: (string | number | boolean)[];
+
+person = ["Noyon", 24, "Purna", 22, "Pritim", 21]
+```
 ## Lesson5
 <p>In this lesson we will learn about tuple type</p>
+
+```TypeScript
+
+```
 
 ## Lesson6
 <p>In this lesson we will learn about ENUM type</p>
