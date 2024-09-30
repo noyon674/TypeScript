@@ -68,3 +68,11 @@ enum Item{
     quantity = 300
 }
 console.log(Item)
+
+
+//data type any store any types of data
+let userID: any;
+userID = 'noyon'
+userID = 28365
+userID = true
+userID = [93,536, 'apple', true, 'mango']

@@ -104,6 +104,15 @@ console.log(Item.name) //for specific value
 ## Lesson7
 <p>In this lesson about any data type</p>
 
+```TypeScript
+//data type any store any types of data
+let userID: any;
+userID = 'noyon'
+userID = 28365
+userID = true
+userID = [93,536, 'apple', true, 'mango']
+```
+
 ## Lesson8
 <p>This lesson about object type</p>
 

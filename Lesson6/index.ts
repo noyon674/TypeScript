@@ -26,3 +26,5 @@ enum RequestItem{
 }
 console.log(RequestItem)
 console.log(RequestItem.age)
+
+

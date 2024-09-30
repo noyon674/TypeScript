@@ -56,3 +56,9 @@ var Item;
     Item[Item["quantity"] = 300] = "quantity";
 })(Item || (Item = {}));
 console.log(Item);
+//data type any store any types of data
+var userID;
+userID = 'noyon';
+userID = 28365;
+userID = true;
+userID = [93, 536, 'apple', true, 'mango'];
