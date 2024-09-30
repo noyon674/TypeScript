@@ -58,11 +58,48 @@ person = ["Noyon", 24, "Purna", 22, "Pritim", 21]
 <p>In this lesson we will learn about tuple type</p>
 
 ```TypeScript
-
+// tuple
+let book: [string, number]
+book = ['Bangla', 200]
+book.push("English", 300)
+console.log(book)
 ```
 
 ## Lesson6
 <p>In this lesson we will learn about ENUM type</p>
+
+```TypeScript
+// enums: store constrants, duplicate value not allow
+// enums are 3 types: string, numeric, hetergenous[combination of string and number]
+
+//numeric enum
+enum requestType {
+    readData = 1,
+    saveData,
+    updateData,
+    deleteData
+}
+console.log(requestType)
+console.log(requestType.deleteData) //for specific value
+
+//string enum
+enum Data{
+    getData = "GET",
+    postData = 'POST',
+    deleteData = 'DELETE'
+}
+console.log(Data)
+console.log(Data.getData) //for specifi value
+
+
+//hetergeous type
+enum Item{
+    name = "Mango",
+    quantity = 300
+}
+console.log(Item)
+console.log(Item.name) //for specific value
+```
 
 ## Lesson7
 <p>In this lesson about any data type</p>

@@ -38,3 +38,33 @@ let person: (string | number | boolean)[];
 
 person = ["Noyon", 24, "Purna", 22, "Pritim", 21]
 
+// tuple
+let book: [string, number]
+book = ['Bangla', 200]
+book.push("English", 300)
+console.log(book)
+
+//enums
+// enums: store constrants, duplicate value not allow
+// enums are 3 types: string, numeric, hetergenous[combination of string and number]
+
+//numeric enums
+enum requestType {
+    readData = 1,
+    saveData,
+    updateData,
+    deleteData
+}
+// string type
+enum Data{
+    getData = "GET",
+    postData = 'POST',
+    deleteData = 'DELETE'
+}
+
+//hetergeous type
+enum Item{
+    name = "Mango",
+    quantity = 300
+}
+console.log(Item)
