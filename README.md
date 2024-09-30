@@ -40,6 +40,14 @@ salary = 10000
 ```
 ## Lesson4
 <p>In this lesson we will learn about Array Type</p>
+```
+//array data type
+let fruites: string[];
+fruites = ['mango', 'orange', 'apple']
+
+//this time get error
+// fruites = ['Apple', 'Mango', 28, 48]
+```
 
 ## Lesson5
 <p>In this lesson we will learn about tuple type</p>
