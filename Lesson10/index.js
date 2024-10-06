@@ -62,3 +62,24 @@ userID = 'noyon';
 userID = 28365;
 userID = true;
 userID = [93, 536, 'apple', true, 'mango'];
+//object type
+var user;
+user = { name: 'Noyon', age: 23 };
+// user = {name: "Purna", } // age must be write otherwise get error
+//one key will be not mandatory
+var Man;
+Man = { name: "pritim", age: 21 }; //we didnot wrire NID but there is no error
+var h1;
+h1 = { name: 'riya', age: 23 };
+var h2;
+h2 = { name: 'prince', age: 22 };
+console.log(h1, h2);
+var request;
+request = "GET";
+request = "POST";
+//getting error
+//request = "PUT"
+function requestHandle(request) {
+    console.log(request);
+}
+requestHandle("GET");

@@ -76,3 +76,40 @@ userID = 'noyon'
 userID = 28365
 userID = true
 userID = [93,536, 'apple', true, 'mango']
+
+
+//object type
+let user: {name: string, age: Number}
+user = {name: 'Noyon', age: 23}
+// user = {name: "Purna", } // age must be write otherwise get error
+
+//one key will be not mandatory
+let Man: {name: string, age: Number, NID ?: string}
+Man = {name: "pritim", age: 21} //we didnot wrire NID but there is no error
+
+
+//custom data type create
+type Human = {name: string, age: Number}
+
+let h1: Human
+h1 = {name: 'riya', age:23}
+
+let h2: Human
+h2 = {name: 'prince', age: 22}
+
+console.log(h1, h2)
+
+type RequestType = "GET" | "POST"
+let request: RequestType
+
+request = "GET"
+request = "POST"
+
+//getting error
+//request = "PUT"
+
+function requestHandle(request: RequestType){
+    console.log(request)
+}
+
+requestHandle("GET")
