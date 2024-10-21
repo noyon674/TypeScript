@@ -124,3 +124,9 @@ userID = [93,536, 'apple', true, 'mango']
 
 ## Lesson11
 <p>Class and Object</p>
+
+## Lesson 12
+<p>Practiced First to calss</p>
+
+## Lesson 13
+<p>In this lesson we will learn about Inheritance</p>
