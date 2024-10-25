@@ -17,6 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var Animal = /** @class */ (function () {
     function Animal(name, age) {
+        this.passWord = 39579;
         this.name = name;
         this.age = age;
     }
@@ -48,6 +49,8 @@ a1.setID(349343); // accessing private element by public method
 a1.showID();
 console.log(a1.name); // public element
 //console.log(a1.age) // protected elemet
+//readonly, can't modified
+console.log(a1.passWord);
 // public element: can extends, can access from outer class, can modified the previous value
 // protected element: can extends, can not access from outer class
 // private element: can not extends

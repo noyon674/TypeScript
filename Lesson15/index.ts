@@ -5,6 +5,7 @@ class Animal {
     public name: string;
     protected age: number;
     private ID: number;
+    readonly passWord = 39579;
 
     constructor(name: string, age: number) {
         this.name = name;
@@ -36,6 +37,10 @@ a1.setID(349343)// accessing private element by public method
 a1.showID()
 console.log(a1.name) // public element
 //console.log(a1.age) // protected elemet
+
+//readonly, can't modified
+console.log(a1.passWord)
+
 
 
 
