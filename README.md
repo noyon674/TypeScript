@@ -130,3 +130,14 @@ userID = [93,536, 'apple', true, 'mango']
 
 ## Lesson 13
 <p>In this lesson we will learn about Inheritance</p>
+
+## Lesson 14
+<p>Abstraction or Abstract class</p>
+
+- Abstract means hide the implementation 
+- we can create a method but we can implement in the other class.
+- Abstract class cannot produce object
+- If any calss extends from abstract calss then must implement the abstract method.
+
+## Lesson 15
+<p>Escapsulation and Access Modifier</p>
