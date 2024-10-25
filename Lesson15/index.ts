@@ -13,21 +13,29 @@ class Animal {
      display(){
 
      }
+     setID(id: number){
+        this.ID = id
+     }
+     showID(){
+        console.log(this.ID)
+     }
 }
 
 class DOG extends Animal{
     display(){
         console.log(`Name is ${this.name} and age is ${this.age}`)
-        console.log(this.ID) //private element
+        //console.log(this.ID) //private element
     }
 }
 
 let d1 = new DOG('Tomy', 22)
 d1.display()
 
-let a1 = new Animal('Pritim', 43)
+let a1 = new Animal('Pritim', 43, )
+a1.setID(349343)// accessing private element by public method
+a1.showID()
 console.log(a1.name) // public element
-console.log(a1.age) // protected elemet
+//console.log(a1.age) // protected elemet
 
 
 

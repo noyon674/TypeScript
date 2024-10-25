@@ -22,6 +22,12 @@ var Animal = /** @class */ (function () {
     }
     Animal.prototype.display = function () {
     };
+    Animal.prototype.setID = function (id) {
+        this.ID = id;
+    };
+    Animal.prototype.showID = function () {
+        console.log(this.ID);
+    };
     return Animal;
 }());
 var DOG = /** @class */ (function (_super) {
@@ -31,15 +37,17 @@ var DOG = /** @class */ (function (_super) {
     }
     DOG.prototype.display = function () {
         console.log("Name is ".concat(this.name, " and age is ").concat(this.age));
-        console.log(this.ID); //private element
+        //console.log(this.ID) //private element
     };
     return DOG;
 }(Animal));
 var d1 = new DOG('Tomy', 22);
 d1.display();
 var a1 = new Animal('Pritim', 43);
+a1.setID(349343); // accessing private element by public method
+a1.showID();
 console.log(a1.name); // public element
-console.log(a1.age); // protected elemet
+//console.log(a1.age) // protected elemet
 // public element: can extends, can access from outer class, can modified the previous value
 // protected element: can extends, can not access from outer class
 // private element: can not extends
