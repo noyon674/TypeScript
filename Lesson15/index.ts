@@ -39,7 +39,7 @@ console.log(a1.name) // public element
 //console.log(a1.age) // protected elemet
 
 //readonly, can't modified
-console.log(a1.passWord)
+console.log(a1.passWord);
 
 
 
